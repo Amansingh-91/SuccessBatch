@@ -70,15 +70,21 @@ console.log(checkEven(28));
 
 // arrow function
 
-// const isEven = (num) => num % 2 === 0;
+// const isEven = (num) => {
+//     return num %2 === 0;
+// };
 
-// console.log(isEven(13),"is even func");
-// console.log(isEven(20),"is even func");
+const isEven = (num) => num %2 === 0;
+
+console.log(isEven(13),"is even func");
+console.log(isEven(20),"is even func");
 
 
-const arrowFunc = (name,age)=>{
+const arrowFunc = (name = "jack",age) => {
     console.log(`Hello ${name},and your age is ${age}`);
 }
 
 arrowFunc("Jim",24);
+
+
 
