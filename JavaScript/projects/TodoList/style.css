@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: blueviolet;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+.container{
+    text-align: center;
+    min-height: 70vh;
+    min-width: 70vw;
+    background-color: rgb(191, 138, 240);
+    border-radius: 20px;
+    display: grid;
+    justify-content: center;
+    align-content: space-between;
+    color: white;
+}
+.container h1{
+    margin-top: 0.5rem;
+}
+
+input,button{
+    border: transparent;
+    border-radius: 5px;
+    padding: 3px;
+    text-align: center;
+}
+input{
+    width: 20vw;
+}
+button{
+    padding:3px 10px;
+}
+form{
+    margin-bottom: 0.5rem;
+}
+.task{
+    list-style: none;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+}
+.hide{
+    display: none;
+}
+.cross{
+    text-decoration: line-through;
+}
