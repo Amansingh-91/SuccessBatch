@@ -18,7 +18,7 @@ const PunchIn = (listOfEmp=[])=>{
 const PunchOut = (listOfEmp=[])=>{
     listOfEmp.forEach((emp)=>{
         console.log(`${emp} , Have a nice day`);
-    })
+    });
 }
 
 
